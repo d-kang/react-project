@@ -4,13 +4,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo \"building your app\""
+    "build": "babel script.js -d dist"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "react": "^15.6.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  },
   "description": ""
 }
